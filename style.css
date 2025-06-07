@@ -237,8 +237,10 @@ a{
 
     .colabore{
         width: 360px;
-        margin-bottom: 217px;
+       /* margin-bottom: 217px;*/
+       margin-bottom: 297px;
     }
+    
     p{
         font-size: 18px;
     }
