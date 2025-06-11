@@ -8,6 +8,18 @@
     font-family: 'Poppins';
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+}
+
 body {
     background-image: url(./pag5.jpg);
     background-size: cover;
@@ -52,7 +64,7 @@ button {
     text-align: center;
     margin: auto;
     margin-top: 25px;
-    margin-bottom: 261px;
+    
     width: 800px;
     background-color: black  ;
     opacity: 0.6;
@@ -90,18 +102,9 @@ footer {
     font-family: Poppins;
 }
 
+
+
 .p2Footer {
-
-    font-size: 15px;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-top: 19px;
-    margin-left: 136px;
-    margin-right: 53px;
-    font-family: Poppins;
-}
-
-.p3Footer {
 
     font-size: 15px;
     justify-content: center;
@@ -237,8 +240,9 @@ a{
 
     .colabore{
         width: 360px;
+        
        /* margin-bottom: 217px;*/
-       margin-bottom: 114px;
+       
     }
     
     p{
@@ -264,21 +268,12 @@ a{
     .pFooter {
         font-size: 12px;
         margin-left: 30px;
-        margin-top: -22px;
+        margin-top: 3px;
     }
+
+    
 
     .p2Footer {
-        font-size: 12px;
-        justify-content: center;
-        margin-top: -18px;
-        margin-left: 170px;
-        margin-right:0px;
-
-
-    }
-
-    .p3Footer {
-
         font-size: 12px;
         justify-content: center;
         margin-top: 1px;
